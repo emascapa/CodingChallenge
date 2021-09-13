@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- link al file stile css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link al font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <title>Coding Challenge - Scapaticci Emanuele</title>
+  </head>
+  <body>
+
+  <!-- Creo un contenitore per lo sfondo della pagina web -->
+
+    <div class="sfondo">
+
+
+      <!-- Creo il rettangolo-contenitore  -->
+      <div class="container">
+
+        <header>
+          <!-- metto logo e motto in un tag semantico -->
+          <img class="logo" src="logo.png" alt="">
+
+          <p class="motto">Taking Booleaners from A to B</p>
+        </header>
+
+        <nav>
+          <!-- riunisco i pulsanti nella barra verde come da esempio -->
+          <div class="barra">
+            <button type="button" class="pulsante">Prenota</button>
+            <button type="button" class="pulsante">Termina Prenotazione</button>
+            <button type="button" class="pulsante">Accendi Luci</button>
+
+          </div>
+        </nav>
+
+        <section>
+
+        <!-- riunisco gli elementi monopattini in vari div.
+        Conterranno -nome -ubicazione e -stato batteria -->
+
+            <div class="elemento-monopattino">
+              <span class="nome-monopattino"><input type="checkbox" class="spunta"> Monopattino Pippo Baudo</span>
+              <span class="ubicazione">&xmap; Via Vittoria - a 37 metri da te</span>
+              <span class="power">Stato batteria:</span>
+              <div class="carica1"> </div>
+
+            </div>
+
+            <div class="elemento-monopattino">
+              <span class="nome-monopattino"><input type="checkbox" class="spunta">  Monopattino Frank Sinatra</span>
+              <span class="ubicazione">&xmap; Via Levanto - a 667 metri da te</span>
+              <span class="power">Stato batteria:</span>
+              <div class="carica2"> </div>
+
+            </div>
+
+            <div class="elemento-monopattino">
+              <span class="nome-monopattino"><input type="checkbox" class="spunta">  Monopattino Mr Pink</span>
+              <span class="ubicazione">&xmap; Via Lipari - a 100 metri da te</span>
+              <span class="power">Stato batteria:</span>
+              <div class="carica3"> </div>
+
+            </div>
+
+
+        </section>
+
+      </div>
+    </div>
+
+
+
+  </body>
+</html>
