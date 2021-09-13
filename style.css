@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+}
+
+p, span{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.sfondo {
+  position: absolute;
+  margin: 0 0 0 0;
+  /* height: 100%;
+  width: 100%; */
+  height: 100vh;
+  width: 100vw;
+  background-image: url("background.jpg");
+  background-size: cover;
+
+}
+
+.container {
+  text-align: center;
+  position: relative;
+
+  margin: 2% 20% 20%;
+  padding: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+
+.logo {
+  height: 80px;
+  /* text-align: center; */
+}
+
+.motto{
+  color: #00dd00;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.barra{
+  margin-top: 5px;
+  background-color: #00dd00;
+  line-height: 35px;
+  height: 35px;
+}
+
+.pulsante{
+  font-size: 10px;
+}
+
+.elemento-monopattino {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.spunta{
+  height: 10px;
+  width: 10px;
+}
+
+.nome-monopattino, .ubicazione, .power{
+  text-align: left;
+  display: block;
+}
+
+.nome-monopattino{
+  font-weight: bold;
+}
+
+.ubicazione, .power{
+  font-size: 12px;
+}
+
+.power{
+  margin-bottom: 3px;
+}
+
+.carica1, .carica2, .carica3{
+  height: 20px;
+  border-radius: 3px;
+}
+
+.carica1{
+  background-color: green;
+  width: 75%;
+}
+
+.carica2{
+  background-color: red;
+  width: 50%;
+}
+
+.carica3{
+  background-color: yellow;
+  width: 20%;
+}
